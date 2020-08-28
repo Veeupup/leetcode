@@ -1,5 +1,23 @@
 # leetcode
 
-leetcode 通关之路
+leetcode practice.
 
-每个题目用 c++, java, golang 实现
+use c++, java, python to solve the problem.
+
+---
+
+| #    | title           | solution     | tag   |
+| ---- | --------------- | ------------ | ----- |
+| 1185 | day-of-the-week | [solution]() | array |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+|      |                 |              |       |
+
+
+
+

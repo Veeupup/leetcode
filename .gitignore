@@ -39,4 +39,8 @@ Temporary Items
 *.exe
 *.o
 
+### test ###
+test/**
+**/a.out
+
 # End of https://www.gitignore.io/api/macos,visualstudiocode
