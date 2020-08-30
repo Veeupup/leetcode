@@ -1,3 +1,5 @@
+[TOC]
+
 # Problem
 
 **1185.一周中的第几天**
@@ -96,10 +98,27 @@ private:
 
 ## Java
 
+Java 可以使用 库函数 来进行日期的计算。
+
+```java
+import java.util.Calendar;
+class Solution {
+        String[] week = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+    public String dayOfTheWeek(int day, int month, int year) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month-1);
+        calendar.set(Calendar.DAY_OF_MONTH, day);
+        return week[calendar.get(Calendar.DAY_OF_WEEK)-1];
+    }
+}
+```
 
 
 
 
 
 
-## Python
+
+
+
