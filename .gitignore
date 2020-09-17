@@ -40,7 +40,6 @@ Temporary Items
 *.o
 
 ### test ###
-test/**
 **/a.out
 **old/**
 
