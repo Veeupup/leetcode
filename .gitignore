@@ -42,5 +42,6 @@ Temporary Items
 ### test ###
 **/a.out
 **old/**
+**/a.out.dSYM/**
 
 # End of https://www.gitignore.io/api/macos,visualstudiocode
