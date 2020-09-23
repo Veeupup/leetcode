@@ -1,8 +1,8 @@
 # leetcode
 
-leetcode practice.
+My solution to leetcode.
 
-use c++, java to solve the problem.
+use c++ to solve the problem.
 
 ---
 
@@ -16,6 +16,17 @@ use c++, java to solve the problem.
 | 238  | product-of-array-except-self                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/238_product-of-array-except-self.md) | Array                 |
 | 1208 | get-equal-substrings-within-budget                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1208_get-equal-substrings-within-budget.md) | Array,Sliding  Window |
 | 1011 | capacity-to-ship-packages-within-d-days             | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1011_capacity-to-ship-packages-within-d-days.md) | Array, Binary Search  |
+| 1590 | make-sum-divisible-by-p                             | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1590_make-sum-divisible-by-p.md) | Array, Binary Search  |
+| 974  | subarray-sums-divisible-by-k                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/974_subarray-sums-divisible-by-k.md) | Array, Hash table     |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
+|      |                                                     |                                                              |                       |
 |      |                                                     |                                                              |                       |
 
 
