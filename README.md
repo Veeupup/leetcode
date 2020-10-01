@@ -20,7 +20,7 @@ use c++ to solve the problem.
 | 974   | subarray-sums-divisible-by-k                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/974_subarray-sums-divisible-by-k.md) | Array, Hash table       |
 | 16.21 | sum-swap-lcci                                       | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/16.21-sum-swap-lcci.md) | Array, Sort             |
 | 17.22 | word-transformer-lcci                               | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/17.22-sword-transformer-lcci.md) | Array, DFS, BFS, string |
-|       |                                                     |                                                              |                         |
+| 670   | maximum-swap                                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/670-maximum-swap.md) | Array, Math             |
 |       |                                                     |                                                              |                         |
 |       |                                                     |                                                              |                         |
 |       |                                                     |                                                              |                         |
