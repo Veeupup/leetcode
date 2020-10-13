@@ -22,8 +22,8 @@ use c++ to solve the problem.
 | 17.22 | word-transformer-lcci                               | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/17.22-sword-transformer-lcci.md) | Array, DFS, BFS, string |        |
 | 670   | maximum-swap                                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/670-maximum-swap.md) | Array, Math             |        |
 | 496   | next-greater-element-i                              | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/496-next-greater-element-i.md) | Stack                   | 单调栈 |
-|       |                                                     |                                                              |                         |        |
-|       |                                                     |                                                              |                         |        |
+| 530   | minimum-absolute-difference-in-bst                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/530-minimum-absolute-difference-in-bst.md) | Tree                    |        |
+| 24    | swap-nodes-in-pairs                                 | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/24-swap-nodes-in-pairs.md) | List                    |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
