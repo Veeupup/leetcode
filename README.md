@@ -25,8 +25,8 @@ use c++ to solve the problem.
 | 530   | minimum-absolute-difference-in-bst                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/530-minimum-absolute-difference-in-bst.md) | Tree                    |        |
 | 24    | swap-nodes-in-pairs                                 | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/24-swap-nodes-in-pairs.md) | List                    |        |
 | 1002  | find-common-characters                              | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1002-find-common-characters.md) | String                  |        |
-| 1410  | problems/html-entity-parser                         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1410-problems/html-entity-parser.md) | Stack, String           |        |
-|       |                                                     |                                                              |                         |        |
+| 1410  | html-entity-parser                                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1410-html-entity-parser.md) | Stack, String           |        |
+| 116   | populating-next-right-pointers-in-each-node         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/116-populating-next-right-pointers-in-each-node.md) | Tree，DFS               |        |
 |       |                                                     |                                                              |                         |        |
 
 
