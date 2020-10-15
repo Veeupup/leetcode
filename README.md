@@ -27,7 +27,31 @@ use c++ to solve the problem.
 | 1002  | find-common-characters                              | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1002-find-common-characters.md) | String                  |        |
 | 1410  | html-entity-parser                                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1410-html-entity-parser.md) | Stack, String           |        |
 | 116   | populating-next-right-pointers-in-each-node         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/116-populating-next-right-pointers-in-each-node.md) | Tree，DFS               |        |
+| 1124  | longest-well-performing-interval                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1124-longest-well-performing-interval.md) |                         |        |
 |       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+|       |                                                     |                                                              |                         |        |
+
 
 
 
