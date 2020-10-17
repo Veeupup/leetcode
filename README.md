@@ -28,7 +28,7 @@ use c++ to solve the problem.
 | 1410  | html-entity-parser                                  | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1410-html-entity-parser.md) | Stack, String           |        |
 | 116   | populating-next-right-pointers-in-each-node         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/116-populating-next-right-pointers-in-each-node.md) | Tree，DFS               |        |
 | 1124  | longest-well-performing-interval                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1124-longest-well-performing-interval.md) |                         |        |
-|       |                                                     |                                                              |                         |        |
+| 52    | n-queens-ii                                         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/52-n-queens-ii.md) | DFS, Search             |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
