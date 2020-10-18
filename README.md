@@ -30,7 +30,7 @@ use c++ to solve the problem.
 | 1124  | longest-well-performing-interval                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1124-longest-well-performing-interval.md) |                         |        |
 | 52    | n-queens-ii                                         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/52-n-queens-ii.md) | DFS, Search             |        |
 | 1003  | check-if-word-is-valid-after-substitutions          | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1003-check-if-word-is-valid-after-substitutions.md) | Stack, String           |        |
-|       |                                                     |                                                              |                         |        |
+| 19    | remove-nth-node-from-end-of-list                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/19-remove-nth-node-from-end-of-list.md) | List， double pointer   |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
