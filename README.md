@@ -30,11 +30,11 @@ use c++ to solve the problem.
 | 1124  | longest-well-performing-interval                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1124-longest-well-performing-interval.md) |                         |        |
 | 52    | n-queens-ii                                         | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/52-n-queens-ii.md) | DFS, Search             |        |
 | 1003  | check-if-word-is-valid-after-substitutions          | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1003-check-if-word-is-valid-after-substitutions.md) | Stack, String           |        |
-| 19    | remove-nth-node-from-end-of-list                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/19-remove-nth-node-from-end-of-list.md) | List， double pointer   |        |
+| 19    | remove-nth-node-from-end-of-list                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/19-remove-nth-node-from-end-of-list.md) | List， two pointer      |        |
 | 143   | reorder-list                                        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/143-reorder-list.md) | List                    |        |
 | 876   | middle-of-the-linked-list                           | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/876-middle-of-the-linked-list.md) | List                    |        |
 | 206   | reverse-linked-list                                 | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/206-reverse-linked-list.md) | List                    |        |
-|       |                                                     |                                                              |                         |        |
+| 925   | long-pressed-name                                   | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/925-long-pressed-name.md) | two pointer, string     |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
