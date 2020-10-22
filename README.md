@@ -35,7 +35,7 @@ use c++ to solve the problem.
 | 876   | middle-of-the-linked-list                           | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/876-middle-of-the-linked-list.md) | List                    |        |
 | 206   | reverse-linked-list                                 | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/206-reverse-linked-list.md) | List                    |        |
 | 925   | long-pressed-name                                   | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/925-long-pressed-name.md) | two pointer, string     |        |
-|       |                                                     |                                                              |                         |        |
+| 763   | partition-labels                                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/763-partition-labels.md) | Greedy, two pointer     |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
