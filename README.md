@@ -37,7 +37,7 @@ use c++ to solve the problem.
 | 925   | long-pressed-name                                   | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/925-long-pressed-name.md) | two pointer, string     |        |
 | 763   | partition-labels                                    | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/763-partition-labels.md) | Greedy, two pointer     |        |
 | 234   | palindrome-linked-list                              | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/234-palindrome-linked-list.md) |                         |        |
-|       |                                                     |                                                              |                         |        |
+| 416   | partition-equal-subset-sum                          | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/416-partition-equal-subset-sum.md) | DP                      |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
 |       |                                                     |                                                              |                         |        |
