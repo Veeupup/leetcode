@@ -53,7 +53,13 @@ use c++ to solve the problem.
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
 
+Leetcode 
 
+| Problem                                                      | Solution                                                     | Tag                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
+| [剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC03.md) | 数组，哈希表       |
+| [剑指 Offer 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC04.md) | 数组，双指针，搜索 |
+|                                                              |                                                              |                    |
 
 
 
