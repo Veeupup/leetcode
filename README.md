@@ -42,7 +42,7 @@ use c++ to solve the problem.
 | 1024        | video-stitching                                      | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1024-video-stitching.md) | DP                      |        |
 | 344,541,557 | reverse-string(i, ii, iii)                           | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/344-reverse-string.md) | string                  |        |
 | 1365        | how-many-numbers-are-smaller-than-the-current-number | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1365-how-many-numbers-are-smaller-than-the-current-number.md) | Array, HashTable        |        |
-|             |                                                      |                                                              |                         |        |
+| 144         | binary-tree-preorder-traversal                       | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/144-binary-tree-preorder-traversal.md) | stack, tree             |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
