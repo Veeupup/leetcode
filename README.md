@@ -44,7 +44,7 @@ use c++ to solve the problem.
 | 1365        | how-many-numbers-are-smaller-than-the-current-number | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/1365-how-many-numbers-are-smaller-than-the-current-number.md) | Array, HashTable        |        |
 | 144         | binary-tree-preorder-traversal                       | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/144-binary-tree-preorder-traversal.md) | stack, tree             |        |
 | 129         | sum-root-to-leaf-numbers                             | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/129-sum-root-to-leaf-numbers.md) |                         |        |
-|             |                                                      |                                                              |                         |        |
+| 381         | insert-delete-getrandom-o1-duplicates-allowed        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/381-insert-delete-getrandom-o1-duplicates-allowed.md) | Array, Hashtable        |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
