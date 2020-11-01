@@ -45,7 +45,7 @@ use c++ to solve the problem.
 | 144         | binary-tree-preorder-traversal                       | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/144-binary-tree-preorder-traversal.md) | stack, tree             |        |
 | 129         | sum-root-to-leaf-numbers                             | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/129-sum-root-to-leaf-numbers.md) |                         |        |
 | 381         | insert-delete-getrandom-o1-duplicates-allowed        | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/381-insert-delete-getrandom-o1-duplicates-allowed.md) | Array, Hashtable        |        |
-|             |                                                      |                                                              |                         |        |
+| 139，140    | word-break-i，word-break-ii                          | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/139-word-break-i.md) | dp                      |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
 |             |                                                      |                                                              |                         |        |
