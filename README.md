@@ -59,6 +59,15 @@ use c++ to solve the problem.
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
 | [剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC03.md) | 数组，哈希表       |
 | [剑指 Offer 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC04.md) | 数组，双指针，搜索 |
+| [剑指 Offer 16. 数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC16.md) | 递归，快速幂       |
+| [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC17.md) |                    |
+| [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC20.md) |                    |
+| [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [solution](https://github.com/Veeupup/leetcode/blob/master/algorithms/LC21.md) |                    |
+|                                                              |                                                              |                    |
+|                                                              |                                                              |                    |
+|                                                              |                                                              |                    |
+|                                                              |                                                              |                    |
+|                                                              |                                                              |                    |
 |                                                              |                                                              |                    |
 
 
