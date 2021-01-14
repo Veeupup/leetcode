@@ -30,6 +30,7 @@ Temporary Items
 ### VisualStudioCode ###
 *.vscode/*
 *.dSYM
+*.devcontainer/*
 
 ### IDEA ###
 *.idea/*
