@@ -2,8 +2,8 @@
 using namespace std;
 
 int patition(vector<int>& nums, int l, int r) {
-    int idx = rand() % (r - l + 1) + l;
-    swap(nums[r], nums[idx]);
+    // int idx = rand() % (r - l + 1) + l;
+    // swap(nums[r], nums[idx]);
     int pivot = l;
     int key = nums[r];
     for (int i = l; i < r; ++i) {
@@ -44,7 +44,7 @@ int main() {
     for (int i = 0; i < 100; i++) {
         arr[i] = rand() % 1000;
     }
-    vector<int> iv(arr, arr + 10);
+    vector<int> iv(arr, arr + 30);
     // before sort
     for (int x : iv) {
         cout << x << ", ";
