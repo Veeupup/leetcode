@@ -1,34 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/**
+ *
+ *  https://www.cnblogs.com/chengxiao/p/6129630.html
+ *  https://zhuanlan.zhihu.com/p/252294913
+ *
+ */
+
 template<class T>
 class HeapSort {
 public:
     void sort(vector<T>& nums, int len) {
-        for (int i = len >> 1 - 1; i >= 0; i--) {
-            maxHeap(nums, len, i);
+        for (int i = len / 2 - 1; i >= 0; i--) {
+            maxHeap(nums, len - 1, i);
         }
 
         for (int j = len - 1; j >= 1; j--) {
             swap(nums[0], nums[j]);
-            maxHeap(nums, j, 0);
+            maxHeap(nums, j - 1, 0);
         }
     }
 private:
-    void maxHeap(vector<T>& nums, int length, int index) {
+    void maxHeap(vector<T>& nums, int end, int index) {
         int leftIndex = index * 2 + 1;
         int rightIndex = index * 2 + 2;
         int maxIndex = index;
 
-        if (leftIndex < length && nums[leftIndex] > nums[maxIndex])
+        if (leftIndex <= end && nums[leftIndex] > nums[maxIndex])
             maxIndex = leftIndex;
 
-        if (rightIndex < length && nums[rightIndex] > nums[maxIndex])
+        if (rightIndex <= end && nums[rightIndex] > nums[maxIndex])
             maxIndex = rightIndex;
 
         if (index != maxIndex) {
             swap(nums[index], nums[maxIndex]);
-            maxHeap(nums, length, index);
+            maxHeap(nums, end, maxIndex);   // 交换之后，maxIndex 位置的值变小了，需要继续向下调整
         }
     }
 };

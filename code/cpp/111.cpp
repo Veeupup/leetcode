@@ -35,23 +35,28 @@ public:
         return 1 + min(minDepth(root->left), minDepth(root->right));
     }
 
-    int minDepth2(TreeNode* root) {
-        if (root == nullptr)
+    int minDepth(TreeNode* root) {
+        if (root == nullptr) {
             return 0;
-        queue<pair<TreeNode*, int>> _q;
-        _q.emplace(root, 1);
-        while (!_q.empty())         {
-            TreeNode* node = _q.front().first;
-            int depth = _q.front().second;
-            _q.pop();
-            if (node->left == nullptr && node->right == nullptr)
-                return depth;
-            if (node->left != nullptr)
-                _q.emplace(root->left, depth + 1);
-            if (node->right != nullptr)
-                _q.emplace(root->right, depth + 1);
         }
-        return -1;
+        queue<pair<TreeNode*, int>> que;
+        que.emplace(root, 1);
+        while (!que.empty()) {
+            TreeNode* node = que.front().first;
+            int depth = que.front().second;
+            que.pop();
+            if (node->left == nullptr && node->right == nullptr) {
+                return depth;
+            }
+            if (node->left != nullptr) {
+                que.emplace(node->left, depth + 1);
+            }
+            if (node->right != nullptr) {
+                que.emplace(node->right, depth + 1);
+            }
+        }
+
+        return 0;
     }
 
     // int minDepth(TreeNode* root) {

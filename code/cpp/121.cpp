@@ -47,19 +47,24 @@ public:
         return dp_i_0;
     }
 
-    // int maxProfit(vector<int>& prices) {
-    //     int len = prices.size();
-    //     if (len <= 1)
-    //         return 0;
-    //     int best = 0, low = prices[0], high = prices[0];
-    //     for (int i = 1; i < len; i++)
-    //     {
-    //         int temp = prices[i] - low;
-    //         best = max(temp, best);
-    //         low = min(prices[i], low);
-    //     }
-    //     return best;        
-    // }
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        if (n == 1)
+            return 0;
+        int best = 0, low = prices[0], high = prices[0];
+        for (int i = 1; i < n; i++)
+        {
+            best = max(best, prices[i] - low);
+            low = min(low, prices[i]);
+            high = max(high, prices[i]);
+        }
+        return best;
+    }
+
+    int maxProfit(vector<int>& prices) {
+                
+    }
+            
 };
 
 int main() {

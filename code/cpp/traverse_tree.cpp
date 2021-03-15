@@ -16,18 +16,32 @@ void handle_node(TreeNode* node) {
     cout << node->val << " ->";
 }
 
+// void pre_order(TreeNode* root) {
+//     stack<TreeNode*> sta;
+//     TreeNode* node = root;
+//     sta.push(node);
+//     while (!sta.empty()) {
+//         node = sta.top();
+//         sta.pop();
+//         handle_node(node);
+//         if (node->right)
+//             sta.push(node->right);
+//         if (node->left)
+//             sta.push(node->left);
+//     }
+//     cout << endl;
+// }
+
 void pre_order(TreeNode* root) {
     stack<TreeNode*> sta;
-    TreeNode* node = root;
-    sta.push(node);
-    while (!sta.empty()) {
-        node = sta.top();
-        sta.pop();
-        handle_node(node);
-        if (node->right)
-            sta.push(node->right);
-        if (node->left)
-            sta.push(node->left);
+    while (!sta.empty() || root != nullptr) {
+        while (root) {
+            handle_node(root);
+            sta.push(root);
+            root = root->left;
+        }
+        root = sta.top(); sta.pop();
+        root = root->right;
     }
     cout << endl;
 }

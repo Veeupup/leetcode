@@ -5,7 +5,7 @@ using namespace std;
 *   排序算法总结：https://zhuanlan.zhihu.com/p/252294913
 */
 
-int patition(vector<int>& nums, int l, int r) {
+int patition2(vector<int>& nums, int l, int r) {
     // int idx = rand() % (r - l + 1) + l;
     // swap(nums[r], nums[idx]);
     int pivot = l;
@@ -16,6 +16,21 @@ int patition(vector<int>& nums, int l, int r) {
     }
     swap(nums[pivot], nums[r]);
     return pivot;
+}
+
+int partition(vector<int>& arr, int left, int right) {
+    int i = rand() % (right - left + 1) + left;
+    swap(arr[i], arr[left]);
+    int p = arr[left];
+    while (left < right) {
+        while (left < right && arr[right] >= p) right--;
+        arr[left] = arr[right];
+        while (left < right && arr[left] < p) left++;
+        arr[right] = arr[left];
+    }
+    // 此时 left = right
+    arr[left] = p;
+    return left;
 }
 
 void quickSort(vector<int>& arr, int left, int right) {
