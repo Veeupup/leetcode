@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+class Solution {
+public:
+    bool isBalanced(TreeNode* root) {
+        if (root == NULL)
+            return true;
+        if (abs(getHeight(root->left) - getHeight(root->right)) > 1)
+            return false;
+        return isBalanced(root->left) && isBalanced(root->right);
+    }
+
+    int getHeight(TreeNode* root) {
+        if (root == NULL)
+            return 0;
+        return 1 + max(getHeight(root->left), getHeight(root->right));
+    }
+};
+
+int main(int argc, char const* argv []) {
+
+
+
+
+    return 0;
+}

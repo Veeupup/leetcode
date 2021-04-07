@@ -36,22 +36,12 @@ public:
 };
 
 int main() {
-    Solution *so = new Solution();
-
-    int num = 2736;
-    cout << so -> maximumSwap(num) << endl;
-
-    num = 9973;
-    cout << so -> maximumSwap(num) << endl;
-
-    num = 1230;
-    cout << so -> maximumSwap(num) << endl;
-
-    num = 98368;
-    cout << so -> maximumSwap(num) << endl;
-
-    num = 0;
-    cout << so -> maximumSwap(num) << endl;
+    int a[10]{0};
+    for (int i = 0; i < 10; i++)
+    {
+        cout << a[i] << endl;
+    }
+    
 
     return 0;
 }

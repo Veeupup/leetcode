@@ -5,7 +5,6 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         unordered_set<char> window;
-
         int left = 0, right = 0;
         int res = -1;
         while (right < s.size()) {
