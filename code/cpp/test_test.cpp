@@ -23,19 +23,6 @@ void quickSort(vector<int>& nums, int l, int r) {
     }
 }
 
-void heap_sort(vector<int>& arr) {
-    int n = arr.size();
-    for (int i = n / 2 - 1; i >= 0; i--) {
-        adjustHeap(arr, i, n);
-    }
-
-    while (n-- > 0) {
-        swap(arr[0], arr[n]);
-        adjustHeap(arr, 0, n);
-    }
-
-}
-
 void adjustHeap(vector<int>& arr, int i, int n) {
     int lson_idx = 2 * i + 1;
     int rson_idx = 2 * i + 2;
@@ -55,6 +42,19 @@ void adjustHeap(vector<int>& arr, int i, int n) {
     }
 }
 
+void heap_sort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = n / 2 - 1; i >= 0; i--) {
+        adjustHeap(arr, i, n);
+    }
+
+    while (n-- > 0) {
+        swap(arr[0], arr[n]);
+        adjustHeap(arr, 0, n);
+    }
+
+}
+
 int main(int argc, char const* argv []) {
     srand((unsigned)(time(NULL)));
     vector<int> nums;
@@ -62,11 +62,16 @@ int main(int argc, char const* argv []) {
         nums.push_back(rand() % 100);
     }
     // quickSort(nums, 0, nums.size() - 1);
-    heap_sort(nums);
+    // heap_sort(nums);
     for (int x : nums)
         cout << x << ", ";
     cout << endl;
 
+    char arr [] = "hello";
+    arr[1] = 'E';
+
+    char* arr2 = "hello";
+    // arr2[2] = 'O';
 
     return 0;
 }
